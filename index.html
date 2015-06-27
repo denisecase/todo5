@@ -1,0 +1,58 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>To-do List</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/todo5.css" type="text/css" />
+		<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="css/layout.css" type="text/css" media="screen">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<script src="js/jquery-1.4.4.min.js"></script>
+        <script src="js/jquery-ui-1.8.7.custom.min.js"></script>
+        <script src="js/jquery.inlineedit.js"></script>
+        <script src="js/pubsub.js"></script>
+        <script src="js/getPathPlus.min.js"></script>
+        <script src="js/base.js"></script>
+		<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34250094-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    </head>
+    <body>
+	<header>
+		<section id="content">
+				<div class="padding">
+					<div class="indent">
+	
+						<div id="aligncenter">
+							<h2>Quick To-Do List</h2>
+								<form id="todo-form">
+									<input id="todo" type="text" />
+									<input id="submit" type="submit" value="Add to List" class="button-2" >
+								</form>
+							<ul id="show-items"></ul>
+							<br>
+							<a href="#" id="clear-all" class="button-2" >Clear All</a>
+							<br>
+							<br>
+							<div class="row-bot">
+								This HTML5 application keeps your todo list in local storage.<br>
+								<a href="http://web.koesbong.com/2011/01/24/sortable-and-editable-to-do-list-using-html5s-localstorage/" >Based on Content</a> provided by <a href="http://koesbong.com/personal/" >koesbong.com</a><br>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
+   </body>
+</html>
