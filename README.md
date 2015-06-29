@@ -6,13 +6,13 @@ Based on Koes Bong [CodingTest To-Do List](http://web.koesbong.com/demo/codingte
 
 ## Getting started
 
-Copy the files to a folder and open todo5.html in your browser.
+Copy the files to a folder and open index.html in your browser.
 	
 ## About this project
  
 Project files include:
 
-*  todo5.html - the main UI structure. Provides references to the other files. 
+*  index.html - the main UI structure. Provides references to the other files. 
 *  css/html5.css - the stylesheet from the example.
 *  js/base.js - app-specific javascript 
 *  js/getPathPlus.js - jQuery plugin to find an ID selector in the DOM.
